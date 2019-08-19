@@ -1,0 +1,120 @@
+{
+    "questionnaire_0" :
+    [
+        {
+            "question": "Are you Hungry?",
+            "options": ["Yes", "No"]
+        },
+        {
+            "Yes": {
+                "question": "What would you like to eat?",
+                "options": ["Hamburger", "Pizza", "Pop Corn", "Chicken"]
+            },
+            "No": {
+                "message": "OK, call me when you are hungry."
+            }
+        },
+        {
+            "Hamburger": {
+                "message": "Nice, I will order a hamburger for you."
+            },
+            "Pizza": {
+                "question": "Would you like pizza with mushroom?",
+                "options": ["Yes", "No"]
+            },
+            "Pop Corn": {
+                "question": "Would you like pop corn with cheese?",
+                "options": ["Yes", "No"]
+            },
+            "Chicken": {
+                "question": "Would you like chicken with cheese?",
+                "options": ["Yes", "No"]
+            }
+        },
+        {
+            "Pizza": {
+                "Yes": {
+                    "message": "Ok, i will order the best pizza in town for you."
+                },
+                "No": {
+                    "message": "No? Well... stay hungry then."
+                }
+            },
+            "Pop Corn": {
+                "Yes": {
+                    "message": "Ok, i will order the best pop corn in town for you."
+                },
+                "No": {
+                    "message": "No? Well... stay hungry then."
+                }
+            },
+            "Chicken": {
+                "Yes": {
+                    "message": "Ok, i will order the best chicken in town for you."
+                },
+                "No": {
+                    "message": "No? Well... stay hungry then."
+                }
+            }
+        }
+    ],
+    "questionnaire_1":
+    [
+        {
+            "question": "Are you bored?",
+            "options": ["Yes", "No"]
+        },
+        {
+            "Yes": {
+            "question": "What would you like me to play?",
+            "options": ["Song", "Movie", "Music", "Ted Talk"]
+            },
+            "No": {
+                "message": "OK, call me when you are bored."
+            }
+        },
+        {
+            "Song": {
+                "message": "Nice, I will play your favorite song."
+            },
+            "Movie": {
+                "question": "Would you like to watch action movie?",
+                "options": ["Yes", "No"]
+            },
+            "Music": {
+                "question": "Would you like relaxing music?",
+                "options": ["Yes", "No"]
+            },
+            "Ted Talk": {
+                "question": "Would you like me to play simon sinek talk?",
+                "options": ["Yes", "No"]
+            }
+        },
+        {
+            "Movie": {
+                "Yes": {
+                    "message": "Ok, i am playing Avengers."
+                },
+                "No": {
+                    "message": "No? Well... stay bored then."
+                }
+            },
+            "Music": {
+                "Yes": {
+                    "message": "Ok, i will play the most relaxing music."
+                },
+                "No": {
+                    "message": "No? Well... stay bored then."
+                }
+            },
+            "Ted Talk": {
+                "Yes": {
+                    "message": "Ok, get ready to feel inspired."
+                },
+                "No": {
+                    "message": "No? Well... stay bored then."
+                }
+            }
+        }
+    ]
+}
