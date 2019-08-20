@@ -14,6 +14,8 @@ data = {}
 app = Flask(__name__)
 port = int(os.environ.get("PORT", 5000))
 CORS(app)
+
+# allow cross origin
 cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
 with open('static/data_qa.json') as f:
     data = json.load(f)
